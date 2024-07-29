@@ -1,0 +1,8 @@
+source;share/streamer/hook/cmake_prefix_path.ps1
+source;share/streamer/hook/cmake_prefix_path.dsv
+source;share/streamer/hook/cmake_prefix_path.sh
+source;share/streamer/local_setup.bash
+source;share/streamer/local_setup.dsv
+source;share/streamer/local_setup.ps1
+source;share/streamer/local_setup.sh
+source;share/streamer/local_setup.zsh

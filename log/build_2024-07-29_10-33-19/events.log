@@ -1,0 +1,651 @@
+[0.000000] (-) TimerEvent: {}
+[0.000604] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.000663] (streamer) JobQueued: {'identifier': 'streamer', 'dependencies': OrderedDict()}
+[0.000686] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.005380] (streamer) JobStarted: {'identifier': 'streamer'}
+[0.007986] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.008061] (micro_ros_agent) Command: {'cmd': ['/home/ubersmurf/Qt/Tools/CMake/bin/cmake', '/home/ubersmurf/ros2_ws/src/micro-ROS-Agent/micro_ros_agent', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubersmurf/ros2_ws/install/micro_ros_agent'], 'cwd': '/home/ubersmurf/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubersmurf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubersmurf/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ubersmurf/Qt/6.6.0/gcc_64/lib'), ('HOME', '/home/ubersmurf'), ('OLDPWD', '/home/ubersmurf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1281'), ('SYSTEMD_EXEC_PID', '1668'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubersmurf'), ('JOURNAL_STREAM', '9:17943'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubersmurf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubersmurf/Qt/Tools/CMake/bin:/opt/ros/humble/bin:/home/ubersmurf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubersmurf-pc:@/tmp/.ICE-unix/1427,unix/ubersmurf-pc:/tmp/.ICE-unix/1427'), ('INVOCATION_ID', '7258f9eca0244400bea4ea84e4ce2218'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G2UVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/my_robot_controller:/home/ubersmurf/ros2_ws/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d65823b-2bad-43be-802f-84ee24f3e46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubersmurf/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubersmurf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/micro_ros_agent::/home/ubersmurf/Qt/6.6.0/gcc_64:/opt/ros/humble:/home/ubersmurf/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[0.011402] (streamer) JobProgress: {'identifier': 'streamer', 'progress': 'cmake'}
+[0.011691] (streamer) Command: {'cmd': ['/home/ubersmurf/Qt/Tools/CMake/bin/cmake', '/home/ubersmurf/ros2_ws/src/streamer', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubersmurf/ros2_ws/install/streamer'], 'cwd': '/home/ubersmurf/ros2_ws/build/streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubersmurf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubersmurf/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ubersmurf/Qt/6.6.0/gcc_64/lib'), ('HOME', '/home/ubersmurf'), ('OLDPWD', '/home/ubersmurf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1281'), ('SYSTEMD_EXEC_PID', '1668'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubersmurf'), ('JOURNAL_STREAM', '9:17943'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubersmurf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubersmurf/Qt/Tools/CMake/bin:/opt/ros/humble/bin:/home/ubersmurf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubersmurf-pc:@/tmp/.ICE-unix/1427,unix/ubersmurf-pc:/tmp/.ICE-unix/1427'), ('INVOCATION_ID', '7258f9eca0244400bea4ea84e4ce2218'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G2UVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/my_robot_controller:/home/ubersmurf/ros2_ws/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d65823b-2bad-43be-802f-84ee24f3e46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubersmurf/ros2_ws/build/streamer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubersmurf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/micro_ros_agent::/home/ubersmurf/Qt/6.6.0/gcc_64:/opt/ros/humble:/home/ubersmurf/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[0.091427] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.091591] (streamer) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098857] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099826] (-) TimerEvent: {}
+[0.153050] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.158485] (streamer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.159845] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.160057] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.160591] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.168757] (streamer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200057] (-) TimerEvent: {}
+[0.204535] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.210300] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.214044] (streamer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.220636] (streamer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.220810] (streamer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.220976] (streamer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.223403] (streamer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.263918] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.270722] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.270917] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.271137] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.278761] (streamer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.286598] (streamer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.286783] (streamer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.286994] (streamer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.294736] (streamer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.298593] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.300319] (-) TimerEvent: {}
+[0.300717] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[0.300996] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.301090] (micro_ros_agent) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.301172] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[0.301248] (micro_ros_agent) StderrLine: {'line': b'    AMENT_CMAKE_SYMLINK_INSTALL\n'}
+[0.301313] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[0.301380] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[0.301475] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/ubersmurf/ros2_ws/build/micro_ros_agent\n'}
+[0.303687] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[0.304175] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.304975] (micro_ros_agent) Command: {'cmd': ['/home/ubersmurf/Qt/Tools/CMake/bin/cmake', '--build', '/home/ubersmurf/ros2_ws/build/micro_ros_agent', '--', '-j16', '-l16'], 'cwd': '/home/ubersmurf/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubersmurf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubersmurf/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ubersmurf/Qt/6.6.0/gcc_64/lib'), ('HOME', '/home/ubersmurf'), ('OLDPWD', '/home/ubersmurf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1281'), ('SYSTEMD_EXEC_PID', '1668'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubersmurf'), ('JOURNAL_STREAM', '9:17943'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubersmurf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubersmurf/Qt/Tools/CMake/bin:/opt/ros/humble/bin:/home/ubersmurf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubersmurf-pc:@/tmp/.ICE-unix/1427,unix/ubersmurf-pc:/tmp/.ICE-unix/1427'), ('INVOCATION_ID', '7258f9eca0244400bea4ea84e4ce2218'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G2UVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/my_robot_controller:/home/ubersmurf/ros2_ws/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d65823b-2bad-43be-802f-84ee24f3e46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubersmurf/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubersmurf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/micro_ros_agent::/home/ubersmurf/Qt/6.6.0/gcc_64:/opt/ros/humble:/home/ubersmurf/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[0.319980] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[0.325779] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[0.331910] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[0.394570] (streamer) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400533] (-) TimerEvent: {}
+[0.442819] (streamer) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.474894] (streamer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500769] (-) TimerEvent: {}
+[0.521560] (streamer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527001] (streamer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.536320] (streamer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.551972] (streamer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.571303] (streamer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601001] (-) TimerEvent: {}
+[0.640206] (streamer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.643006] (streamer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701247] (-) TimerEvent: {}
+[0.749881] (streamer) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.783528] (streamer) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.801537] (-) TimerEvent: {}
+[0.832416] (streamer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.853057] (streamer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901703] (-) TimerEvent: {}
+[0.928640] (streamer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.931022] (streamer) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001919] (-) TimerEvent: {}
+[1.075658] (streamer) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.102169] (-) TimerEvent: {}
+[1.187162] (streamer) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.202312] (-) TimerEvent: {}
+[1.240561] (streamer) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.252952] (streamer) StdoutLine: {'line': b'-- Generating done\n'}
+[1.254089] (streamer) StdoutLine: {'line': b'-- Build files have been written to: /home/ubersmurf/ros2_ws/build/streamer\n'}
+[1.261600] (streamer) CommandEnded: {'returncode': 0}
+[1.262253] (streamer) JobProgress: {'identifier': 'streamer', 'progress': 'build'}
+[1.263371] (streamer) Command: {'cmd': ['/home/ubersmurf/Qt/Tools/CMake/bin/cmake', '--build', '/home/ubersmurf/ros2_ws/build/streamer', '--', '-j16', '-l16'], 'cwd': '/home/ubersmurf/ros2_ws/build/streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubersmurf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubersmurf/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ubersmurf/Qt/6.6.0/gcc_64/lib'), ('HOME', '/home/ubersmurf'), ('OLDPWD', '/home/ubersmurf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1281'), ('SYSTEMD_EXEC_PID', '1668'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubersmurf'), ('JOURNAL_STREAM', '9:17943'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubersmurf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubersmurf/Qt/Tools/CMake/bin:/opt/ros/humble/bin:/home/ubersmurf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubersmurf-pc:@/tmp/.ICE-unix/1427,unix/ubersmurf-pc:/tmp/.ICE-unix/1427'), ('INVOCATION_ID', '7258f9eca0244400bea4ea84e4ce2218'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G2UVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/my_robot_controller:/home/ubersmurf/ros2_ws/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d65823b-2bad-43be-802f-84ee24f3e46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubersmurf/ros2_ws/build/streamer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubersmurf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/micro_ros_agent::/home/ubersmurf/Qt/6.6.0/gcc_64:/opt/ros/humble:/home/ubersmurf/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[1.286145] (streamer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cam2image.dir/src/cam2image.cpp.o\x1b[0m\n'}
+[1.286406] (streamer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/showimage.dir/src/showimage.cpp.o\x1b[0m\n'}
+[1.302446] (-) TimerEvent: {}
+[1.402924] (-) TimerEvent: {}
+[1.503320] (-) TimerEvent: {}
+[1.603596] (-) TimerEvent: {}
+[1.703875] (-) TimerEvent: {}
+[1.804289] (-) TimerEvent: {}
+[1.904607] (-) TimerEvent: {}
+[2.004939] (-) TimerEvent: {}
+[2.105365] (-) TimerEvent: {}
+[2.205707] (-) TimerEvent: {}
+[2.306095] (-) TimerEvent: {}
+[2.406380] (-) TimerEvent: {}
+[2.506802] (-) TimerEvent: {}
+[2.575794] (micro_ros_agent) StdoutLine: {'line': b"Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.\n"}
+[2.575988] (micro_ros_agent) StderrLine: {'line': b"Switched to a new branch 'ros2'\n"}
+[2.606909] (-) TimerEvent: {}
+[2.609944] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[2.707180] (-) TimerEvent: {}
+[2.807599] (-) TimerEvent: {}
+[2.907926] (-) TimerEvent: {}
+[3.008364] (-) TimerEvent: {}
+[3.108682] (-) TimerEvent: {}
+[3.209112] (-) TimerEvent: {}
+[3.309457] (-) TimerEvent: {}
+[3.386777] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[3.393070] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[3.395596] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/ubersmurf/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[3.409572] (-) TimerEvent: {}
+[3.449416] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.455021] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.501410] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.509773] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.509913] (-) TimerEvent: {}
+[3.510120] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.510211] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.553960] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.559971] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.610074] (-) TimerEvent: {}
+[3.613132] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.622922] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.623103] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.623534] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.626625] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.679256] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.680060] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.692582] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.694217] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[3.694518] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/ubersmurf/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[3.702470] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[3.710220] (-) TimerEvent: {}
+[3.717589] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[3.723906] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[3.729604] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[3.735235] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[3.740966] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[3.743832] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/ubersmurf/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[3.749438] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[3.769249] (micro_ros_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[3.769437] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/ubersmurf/Qt/Tools/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[3.769521] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[3.769591] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[3.769655] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[3.769718] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[3.769794] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.769856] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[3.769918] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[3.769981] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[3.770042] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.770105] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[3.810343] (-) TimerEvent: {}
+[3.812367] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.821170] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.828223] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[3.828661] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/ubersmurf/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[3.834437] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[3.852317] (micro_ros_agent) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[3.852584] (micro_ros_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[3.852745] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[3.852945] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[3.853112] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[3.853248] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[3.853488] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[3.853879] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[3.854080] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[3.854621] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[3.858305] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[3.858515] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[3.858649] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[3.858713] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[3.858926] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[3.859440] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[3.910459] (-) TimerEvent: {}
+[4.017215] (-) TimerEvent: {}
+[4.117609] (-) TimerEvent: {}
+[4.217991] (-) TimerEvent: {}
+[4.318398] (-) TimerEvent: {}
+[4.418821] (-) TimerEvent: {}
+[4.519284] (-) TimerEvent: {}
+[4.597392] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[4.619396] (-) TimerEvent: {}
+[4.658049] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[4.719523] (-) TimerEvent: {}
+[4.819901] (-) TimerEvent: {}
+[4.920296] (-) TimerEvent: {}
+[5.021427] (-) TimerEvent: {}
+[5.123337] (-) TimerEvent: {}
+[5.223735] (-) TimerEvent: {}
+[5.279347] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[5.323872] (-) TimerEvent: {}
+[5.429222] (-) TimerEvent: {}
+[5.454400] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[5.529347] (-) TimerEvent: {}
+[5.614884] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[5.629471] (-) TimerEvent: {}
+[5.729944] (-) TimerEvent: {}
+[5.772305] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[5.830070] (-) TimerEvent: {}
+[5.881771] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[5.930213] (-) TimerEvent: {}
+[6.032378] (-) TimerEvent: {}
+[6.132774] (-) TimerEvent: {}
+[6.233184] (-) TimerEvent: {}
+[6.252218] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[6.333309] (-) TimerEvent: {}
+[6.437219] (-) TimerEvent: {}
+[6.537608] (-) TimerEvent: {}
+[6.638055] (-) TimerEvent: {}
+[6.738487] (-) TimerEvent: {}
+[6.839050] (-) TimerEvent: {}
+[6.939628] (-) TimerEvent: {}
+[7.040196] (-) TimerEvent: {}
+[7.141362] (-) TimerEvent: {}
+[7.245217] (-) TimerEvent: {}
+[7.345604] (-) TimerEvent: {}
+[7.445967] (-) TimerEvent: {}
+[7.546362] (-) TimerEvent: {}
+[7.646754] (-) TimerEvent: {}
+[7.747153] (-) TimerEvent: {}
+[7.847532] (-) TimerEvent: {}
+[7.947925] (-) TimerEvent: {}
+[8.048348] (-) TimerEvent: {}
+[8.150234] (-) TimerEvent: {}
+[8.178031] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[8.250362] (-) TimerEvent: {}
+[8.350746] (-) TimerEvent: {}
+[8.452220] (-) TimerEvent: {}
+[8.552610] (-) TimerEvent: {}
+[8.652994] (-) TimerEvent: {}
+[8.756842] (-) TimerEvent: {}
+[8.857213] (-) TimerEvent: {}
+[8.957589] (-) TimerEvent: {}
+[9.058009] (-) TimerEvent: {}
+[9.158466] (-) TimerEvent: {}
+[9.261220] (-) TimerEvent: {}
+[9.364215] (-) TimerEvent: {}
+[9.464612] (-) TimerEvent: {}
+[9.565004] (-) TimerEvent: {}
+[9.665416] (-) TimerEvent: {}
+[9.765803] (-) TimerEvent: {}
+[9.827264] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[9.869211] (-) TimerEvent: {}
+[9.885179] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[9.966402] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[9.969334] (-) TimerEvent: {}
+[10.066277] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[10.069461] (-) TimerEvent: {}
+[10.171067] (-) TimerEvent: {}
+[10.182361] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[10.271212] (-) TimerEvent: {}
+[10.371801] (-) TimerEvent: {}
+[10.476219] (-) TimerEvent: {}
+[10.576464] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[10.576724] (-) TimerEvent: {}
+[10.677036] (-) TimerEvent: {}
+[10.777453] (-) TimerEvent: {}
+[10.855309] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[10.877583] (-) TimerEvent: {}
+[10.978019] (-) TimerEvent: {}
+[11.079760] (-) TimerEvent: {}
+[11.180170] (-) TimerEvent: {}
+[11.282215] (-) TimerEvent: {}
+[11.382605] (-) TimerEvent: {}
+[11.482994] (-) TimerEvent: {}
+[11.583408] (-) TimerEvent: {}
+[11.633488] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[11.686218] (-) TimerEvent: {}
+[11.786617] (-) TimerEvent: {}
+[11.887040] (-) TimerEvent: {}
+[11.987587] (-) TimerEvent: {}
+[12.087982] (-) TimerEvent: {}
+[12.188418] (-) TimerEvent: {}
+[12.275890] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[12.292217] (-) TimerEvent: {}
+[12.392615] (-) TimerEvent: {}
+[12.469300] (streamer) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable showimage\x1b[0m\n'}
+[12.492738] (-) TimerEvent: {}
+[12.593175] (-) TimerEvent: {}
+[12.693748] (-) TimerEvent: {}
+[12.786383] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[12.789222] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[12.793875] (-) TimerEvent: {}
+[12.894312] (-) TimerEvent: {}
+[12.994714] (-) TimerEvent: {}
+[13.098219] (-) TimerEvent: {}
+[13.185334] (streamer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cam2image\x1b[0m\n'}
+[13.198341] (-) TimerEvent: {}
+[13.298737] (-) TimerEvent: {}
+[13.399125] (-) TimerEvent: {}
+[13.499534] (-) TimerEvent: {}
+[13.599945] (-) TimerEvent: {}
+[13.700364] (-) TimerEvent: {}
+[13.800755] (-) TimerEvent: {}
+[13.901162] (-) TimerEvent: {}
+[14.001566] (-) TimerEvent: {}
+[14.019221] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[14.103261] (-) TimerEvent: {}
+[14.203655] (-) TimerEvent: {}
+[14.304058] (-) TimerEvent: {}
+[14.359303] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[14.404210] (-) TimerEvent: {}
+[14.504641] (-) TimerEvent: {}
+[14.605057] (-) TimerEvent: {}
+[14.705459] (-) TimerEvent: {}
+[14.720707] (streamer) StdoutLine: {'line': b'[100%] Built target showimage\n'}
+[14.805596] (-) TimerEvent: {}
+[14.906050] (-) TimerEvent: {}
+[15.006529] (-) TimerEvent: {}
+[15.049671] (streamer) StdoutLine: {'line': b'[100%] Built target cam2image\n'}
+[15.062515] (streamer) CommandEnded: {'returncode': 0}
+[15.110393] (-) TimerEvent: {}
+[15.156922] (streamer) JobProgress: {'identifier': 'streamer', 'progress': 'install'}
+[15.164826] (streamer) Command: {'cmd': ['/home/ubersmurf/Qt/Tools/CMake/bin/cmake', '--install', '/home/ubersmurf/ros2_ws/build/streamer'], 'cwd': '/home/ubersmurf/ros2_ws/build/streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubersmurf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubersmurf/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ubersmurf/Qt/6.6.0/gcc_64/lib'), ('HOME', '/home/ubersmurf'), ('OLDPWD', '/home/ubersmurf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1281'), ('SYSTEMD_EXEC_PID', '1668'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubersmurf'), ('JOURNAL_STREAM', '9:17943'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubersmurf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubersmurf/Qt/Tools/CMake/bin:/opt/ros/humble/bin:/home/ubersmurf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubersmurf-pc:@/tmp/.ICE-unix/1427,unix/ubersmurf-pc:/tmp/.ICE-unix/1427'), ('INVOCATION_ID', '7258f9eca0244400bea4ea84e4ce2218'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G2UVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/my_robot_controller:/home/ubersmurf/ros2_ws/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d65823b-2bad-43be-802f-84ee24f3e46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubersmurf/ros2_ws/build/streamer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubersmurf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/micro_ros_agent::/home/ubersmurf/Qt/6.6.0/gcc_64:/opt/ros/humble:/home/ubersmurf/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[15.173974] (streamer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.174230] (streamer) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.178805] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/lib/streamer/cam2image\n'}
+[15.187050] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/lib/streamer/showimage\n'}
+[15.191701] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/ament_index/resource_index/package_run_dependencies/streamer\n'}
+[15.199067] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/ament_index/resource_index/parent_prefix_path/streamer\n'}
+[15.202813] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/environment/ament_prefix_path.sh\n'}
+[15.210521] (-) TimerEvent: {}
+[15.210952] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/environment/ament_prefix_path.dsv\n'}
+[15.215259] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[15.216879] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/environment/path.sh\n'}
+[15.226300] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/environment/path.dsv\n'}
+[15.230184] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/local_setup.bash\n'}
+[15.234179] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/local_setup.sh\n'}
+[15.240135] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/local_setup.zsh\n'}
+[15.249213] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/local_setup.dsv\n'}
+[15.251557] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/package.dsv\n'}
+[15.257542] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/ament_index/resource_index/packages/streamer\n'}
+[15.262643] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/cmake/streamerConfig.cmake\n'}
+[15.268727] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/cmake/streamerConfig-version.cmake\n'}
+[15.272486] (streamer) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/streamer/share/streamer/package.xml\n'}
+[15.280867] (streamer) CommandEnded: {'returncode': 0}
+[15.281855] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[15.307939] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[15.310644] (-) TimerEvent: {}
+[15.382514] (streamer) JobEnded: {'identifier': 'streamer', 'rc': 0}
+[15.410785] (-) TimerEvent: {}
+[15.511157] (-) TimerEvent: {}
+[15.611511] (-) TimerEvent: {}
+[15.711897] (-) TimerEvent: {}
+[15.812259] (-) TimerEvent: {}
+[15.912637] (-) TimerEvent: {}
+[16.013011] (-) TimerEvent: {}
+[16.113375] (-) TimerEvent: {}
+[16.213726] (-) TimerEvent: {}
+[16.314079] (-) TimerEvent: {}
+[16.414455] (-) TimerEvent: {}
+[16.514823] (-) TimerEvent: {}
+[16.615179] (-) TimerEvent: {}
+[16.715512] (-) TimerEvent: {}
+[16.815839] (-) TimerEvent: {}
+[16.916188] (-) TimerEvent: {}
+[17.016528] (-) TimerEvent: {}
+[17.116893] (-) TimerEvent: {}
+[17.217246] (-) TimerEvent: {}
+[17.317600] (-) TimerEvent: {}
+[17.417941] (-) TimerEvent: {}
+[17.518332] (-) TimerEvent: {}
+[17.618660] (-) TimerEvent: {}
+[17.718952] (-) TimerEvent: {}
+[17.819297] (-) TimerEvent: {}
+[17.919593] (-) TimerEvent: {}
+[18.019957] (-) TimerEvent: {}
+[18.120296] (-) TimerEvent: {}
+[18.220630] (-) TimerEvent: {}
+[18.320972] (-) TimerEvent: {}
+[18.421311] (-) TimerEvent: {}
+[18.521633] (-) TimerEvent: {}
+[18.621954] (-) TimerEvent: {}
+[18.722332] (-) TimerEvent: {}
+[18.822663] (-) TimerEvent: {}
+[18.922954] (-) TimerEvent: {}
+[19.023203] (-) TimerEvent: {}
+[19.123530] (-) TimerEvent: {}
+[19.223962] (-) TimerEvent: {}
+[19.324390] (-) TimerEvent: {}
+[19.424802] (-) TimerEvent: {}
+[19.525215] (-) TimerEvent: {}
+[19.625650] (-) TimerEvent: {}
+[19.725930] (-) TimerEvent: {}
+[19.826333] (-) TimerEvent: {}
+[19.926627] (-) TimerEvent: {}
+[20.026944] (-) TimerEvent: {}
+[20.127306] (-) TimerEvent: {}
+[20.227748] (-) TimerEvent: {}
+[20.328154] (-) TimerEvent: {}
+[20.428511] (-) TimerEvent: {}
+[20.528949] (-) TimerEvent: {}
+[20.629440] (-) TimerEvent: {}
+[20.729843] (-) TimerEvent: {}
+[20.830235] (-) TimerEvent: {}
+[20.930631] (-) TimerEvent: {}
+[21.031030] (-) TimerEvent: {}
+[21.106483] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[21.131273] (-) TimerEvent: {}
+[21.231721] (-) TimerEvent: {}
+[21.320653] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[21.327252] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[21.331851] (-) TimerEvent: {}
+[21.332600] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[21.341645] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[21.351702] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[21.381157] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_agent\x1b[0m\n'}
+[21.415662] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[21.421598] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[21.423783] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[21.424008] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1\n'}
+[21.426511] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[21.426737] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/ubersmurf/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""\n'}
+[21.426917] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[21.427040] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[21.427223] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[21.427357] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[21.427436] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[21.427505] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[21.427655] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[21.427769] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[21.427858] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[21.427947] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[21.428025] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[21.428104] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[21.428200] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[21.428286] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[21.428350] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[21.428411] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[21.428495] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[21.428558] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[21.428632] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[21.428696] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[21.428760] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[21.428826] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[21.428890] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[21.428954] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[21.429018] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[21.429082] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[21.429200] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[21.429350] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[21.429444] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[21.429509] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[21.429596] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[21.429723] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[21.429760] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[21.429818] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[21.429852] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[21.429884] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[21.429914] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[21.429961] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[21.429993] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[21.430024] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[21.430053] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[21.430082] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[21.430112] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[21.430143] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[21.430172] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[21.430202] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[21.430255] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[21.430289] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[21.430320] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[21.430349] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[21.430378] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[21.430406] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[21.430435] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[21.430466] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[21.430496] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[21.430528] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[21.430559] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[21.430590] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[21.430619] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[21.430648] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[21.430677] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[21.430706] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[21.430734] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[21.430763] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[21.430791] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[21.430819] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[21.430847] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[21.430875] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[21.430903] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[21.430931] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[21.431002] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[21.431036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[21.431066] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[21.431095] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[21.431125] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[21.431159] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[21.431198] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[21.431232] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[21.431264] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[21.431297] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[21.431389] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[21.431423] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[21.431454] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[21.431483] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[21.431513] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[21.431543] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[21.431574] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[21.431603] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[21.431632] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[21.431660] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[21.431689] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[21.431716] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[21.431745] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[21.431772] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[21.431801] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[21.431829] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[21.431857] (-) TimerEvent: {}
+[21.431958] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[21.431997] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[21.432030] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[21.432061] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[21.432091] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[21.432121] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[21.432154] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[21.432195] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[21.432229] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[21.432262] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[21.432295] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[21.432327] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[21.432357] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[21.432387] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[21.432418] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[21.432448] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[21.432477] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[21.432505] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[21.432590] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[21.432623] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[21.432653] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[21.432700] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[21.432729] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[21.432758] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[21.432786] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[21.432813] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[21.432839] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[21.432864] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[21.432891] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[21.432917] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[21.432943] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[21.432970] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[21.432996] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[21.437890] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[21.448289] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[21.460292] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[21.469511] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[21.476726] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[21.485617] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[21.494366] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[21.499044] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/ubersmurf/ros2_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[21.509444] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[21.532102] (-) TimerEvent: {}
+[21.605437] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[21.632306] (-) TimerEvent: {}
+[21.658869] (micro_ros_agent) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[21.732475] (-) TimerEvent: {}
+[21.757613] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[21.763170] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[21.832596] (-) TimerEvent: {}
+[21.847977] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[21.848913] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.853238] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[21.854502] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[21.870554] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[21.872109] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[21.899889] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[21.908286] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[21.915995] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.929376] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[21.932810] (-) TimerEvent: {}
+[21.945056] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[21.995325] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[21.999444] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[22.001895] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[22.004369] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 1.0.0 (/opt/ros/humble/share/micro_ros_msgs/cmake)\n'}
+[22.033053] (-) TimerEvent: {}
+[22.069824] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.075220] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[22.076054] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/ubersmurf/ros2_ws/build/micro_ros_agent\n'}
+[22.083902] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[22.105434] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[22.105885] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[22.106067] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[22.106445] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[22.106699] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[22.133311] (-) TimerEvent: {}
+[22.233649] (-) TimerEvent: {}
+[22.334030] (-) TimerEvent: {}
+[22.434443] (-) TimerEvent: {}
+[22.534775] (-) TimerEvent: {}
+[22.635193] (-) TimerEvent: {}
+[22.735620] (-) TimerEvent: {}
+[22.836040] (-) TimerEvent: {}
+[22.936327] (-) TimerEvent: {}
+[23.036745] (-) TimerEvent: {}
+[23.137178] (-) TimerEvent: {}
+[23.237548] (-) TimerEvent: {}
+[23.337969] (-) TimerEvent: {}
+[23.438345] (-) TimerEvent: {}
+[23.538664] (-) TimerEvent: {}
+[23.639070] (-) TimerEvent: {}
+[23.739376] (-) TimerEvent: {}
+[23.839783] (-) TimerEvent: {}
+[23.940198] (-) TimerEvent: {}
+[24.040613] (-) TimerEvent: {}
+[24.140924] (-) TimerEvent: {}
+[24.241356] (-) TimerEvent: {}
+[24.341676] (-) TimerEvent: {}
+[24.442082] (-) TimerEvent: {}
+[24.542487] (-) TimerEvent: {}
+[24.598059] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[24.642716] (-) TimerEvent: {}
+[24.743122] (-) TimerEvent: {}
+[24.843531] (-) TimerEvent: {}
+[24.845521] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[24.851519] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[24.856830] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[24.866041] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[24.871795] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[24.906033] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[24.906257] (micro_ros_agent) Command: {'cmd': ['/home/ubersmurf/Qt/Tools/CMake/bin/cmake', '--install', '/home/ubersmurf/ros2_ws/build/micro_ros_agent'], 'cwd': '/home/ubersmurf/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubersmurf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubersmurf/ros2_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ubersmurf/Qt/6.6.0/gcc_64/lib'), ('HOME', '/home/ubersmurf'), ('OLDPWD', '/home/ubersmurf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1281'), ('SYSTEMD_EXEC_PID', '1668'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3010'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubersmurf'), ('JOURNAL_STREAM', '9:17943'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubersmurf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubersmurf/Qt/Tools/CMake/bin:/opt/ros/humble/bin:/home/ubersmurf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubersmurf-pc:@/tmp/.ICE-unix/1427,unix/ubersmurf-pc:/tmp/.ICE-unix/1427'), ('INVOCATION_ID', '7258f9eca0244400bea4ea84e4ce2218'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G2UVR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/my_robot_controller:/home/ubersmurf/ros2_ws/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d65823b-2bad-43be-802f-84ee24f3e46b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubersmurf/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubersmurf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubersmurf/ros2_ws/install/turt:/home/ubersmurf/ros2_ws/install/streamer:/home/ubersmurf/ros2_ws/install/micro_ros_agent::/home/ubersmurf/Qt/6.6.0/gcc_64:/opt/ros/humble:/home/ubersmurf/ros2_ws/install/my_robot_controller')]), 'shell': False}
+[24.908359] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.908662] (micro_ros_agent) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.908720] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[24.910887] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[24.912831] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[24.915470] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[24.918590] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[24.921686] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[24.925065] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[24.928652] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[24.931902] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[24.934910] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[24.937529] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[24.940865] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[24.943532] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.943695] (-) TimerEvent: {}
+[24.946519] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[24.949538] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[24.952263] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[24.955038] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[24.957737] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/ubersmurf/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[24.961079] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[25.007811] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[25.008487] (-) EventReactorShutdown: {}

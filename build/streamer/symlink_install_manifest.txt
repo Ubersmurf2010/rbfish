@@ -1,0 +1,17 @@
+/home/ubersmurf/ros2_ws/install/streamer/lib/streamer/cam2image
+/home/ubersmurf/ros2_ws/install/streamer/lib/streamer/showimage
+/home/ubersmurf/ros2_ws/install/streamer/share/ament_index/resource_index/package_run_dependencies/streamer
+/home/ubersmurf/ros2_ws/install/streamer/share/ament_index/resource_index/parent_prefix_path/streamer
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/environment/ament_prefix_path.sh
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/environment/ament_prefix_path.dsv
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/environment/path.sh
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/environment/path.dsv
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/local_setup.bash
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/local_setup.sh
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/local_setup.zsh
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/local_setup.dsv
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/package.dsv
+/home/ubersmurf/ros2_ws/install/streamer/share/ament_index/resource_index/packages/streamer
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/cmake/streamerConfig.cmake
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/cmake/streamerConfig-version.cmake
+/home/ubersmurf/ros2_ws/install/streamer/share/streamer/package.xml

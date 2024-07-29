@@ -1,0 +1,1 @@
+cmd='/home/ubersmurf/Qt/Tools/CMake/bin/cmake;-GUnix Makefiles;-C<TMP_DIR>/uagent-cache-$<CONFIG>.cmake;<SOURCE_DIR><SOURCE_SUBDIR>'

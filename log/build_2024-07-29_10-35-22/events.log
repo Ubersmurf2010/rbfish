@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000159] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000180] (-) JobUnselected: {'identifier': 'streamer'}
+[0.000532] (-) EventReactorShutdown: {}

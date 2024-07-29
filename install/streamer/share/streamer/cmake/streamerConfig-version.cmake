@@ -1,0 +1,1 @@
+/home/ubersmurf/ros2_ws/build/streamer/ament_cmake_core/streamerConfig-version.cmake

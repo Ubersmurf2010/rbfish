@@ -1,0 +1,11 @@
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/uninstall.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/streamer_uninstall.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/cam2image.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/showimage.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/test.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/edit_cache.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/rebuild_cache.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/list_install_components.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/install.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/install/local.dir
+/home/ubersmurf/ros2_ws/build/streamer/CMakeFiles/install/strip.dir

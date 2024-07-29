@@ -1,0 +1,6 @@
+Invoking command in '/home/ubersmurf/ros2_ws/build/micro_ros_agent': /home/ubersmurf/Qt/Tools/CMake/bin/cmake /home/ubersmurf/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/ubersmurf/ros2_ws/install/micro_ros_agent
+Invoked command in '/home/ubersmurf/ros2_ws/build/micro_ros_agent' returned '0': /home/ubersmurf/Qt/Tools/CMake/bin/cmake /home/ubersmurf/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/ubersmurf/ros2_ws/install/micro_ros_agent
+Invoking command in '/home/ubersmurf/ros2_ws/build/micro_ros_agent': /home/ubersmurf/Qt/Tools/CMake/bin/cmake --build /home/ubersmurf/ros2_ws/build/micro_ros_agent -- -j16 -l16
+Invoked command in '/home/ubersmurf/ros2_ws/build/micro_ros_agent' returned '0': /home/ubersmurf/Qt/Tools/CMake/bin/cmake --build /home/ubersmurf/ros2_ws/build/micro_ros_agent -- -j16 -l16
+Invoking command in '/home/ubersmurf/ros2_ws/build/micro_ros_agent': /home/ubersmurf/Qt/Tools/CMake/bin/cmake --install /home/ubersmurf/ros2_ws/build/micro_ros_agent
+Invoked command in '/home/ubersmurf/ros2_ws/build/micro_ros_agent' returned '0': /home/ubersmurf/Qt/Tools/CMake/bin/cmake --install /home/ubersmurf/ros2_ws/build/micro_ros_agent
